@@ -2,14 +2,10 @@ import React from 'react';
 import './carousel.css'
 
 const Slide = ({ image }) => {
-  const styles = {
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: '50% 60%'
-  }
-  // console.log(`image -->`, image);
-  return <div className="slide" style={styles}></div>
+  return (
+    <div className="slide">
+      <img src={image} alt='in focus'></img>
+    </div>)
 }
 
 export default Slide;

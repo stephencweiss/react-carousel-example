@@ -57,11 +57,10 @@ class Carousel extends Component {
   render() {
 
     return (
-      <div>
+      <div className="main-block">
         <div className="slider">
           <div className="slider-wrapper" style={{
-              transform: `translateX(${this.state.translateValue}px)`,
-              transition: 'transform ease-out 0.45s'
+              transform: `translateX(${this.state.translateValue}px)`
             }}>
           {this.state.images.map((image, i) => (
             <Slide key={i} image={image} />
@@ -81,7 +80,7 @@ class Carousel extends Component {
             goToNextSlide={this.goToNextSlide}
           />
         </div>
-        <div className='text-block'>
+        <div>
           <p >Inspired by <a href="https://medium.com/@ItsMeDannyZ/build-an-image-slider-with-react-es6-264368de68e4">this</a> tutorial by Dan Zuzevich</p>
         </div>
       </div>
