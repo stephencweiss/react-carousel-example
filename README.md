@@ -5,8 +5,9 @@ This app is an example of one approach to build a carousel of a single photo.
 It will allow a user to interact with buttons to navigate forward and backward.
 
 ## Next Steps
-[] Add multiple photo capability (i.e. side by side photos)
-[] Add different styling to disable the button if they are not accessible (example, no back at position 0)
+[ ] Add multiple photo capability (i.e. side by side photos)
+
+[ ] Add different styling to disable the button if they are not accessible (example, no back at position 0)
 
 
 # Other Notes
